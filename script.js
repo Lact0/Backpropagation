@@ -9,7 +9,7 @@ function load() {
   canvas.height = height;
   document.onkeydown = keyPress;
   brain.draw('red');
-  train(10000);
+  train(20000);
   brain.draw('green');
 }
 
